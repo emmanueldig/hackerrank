@@ -140,6 +140,104 @@ def bird1(a):
 		#count[i]
 	#print(count)
 #rand=bird2()
+
+
+
+"""max=arr[0]
+	for i in range(0,len(arr)):
+		if arr[i] > max:
+			max = arr[i] 
+	print(max)
+	x=[]
+	for i in range(0,len(arr)):
+		if arr[i]==max:
+			x.append(i)
+	print(x)
+	for i in range(0,len(x)):
+		if x[i]
+	#largest=arrsorted[-1]
+	#print(largest)"""
+	
+	"""print(arr1)
+	x=[]
+
+	for i in range(1,len(arr)):
+		for j in range(i+1,len(arr)):
+			if (arr[i]==arr[j] and  ):
+				y=i
+				z=j
+				x.append(y)
+				x.append(j)
+	#x=list(x[0])
+	print(x)"""
+	"""for i in range(0,len(x)):
+		for j in range(i+1,len(x)):
+			if (x[i]==x[j]):
+				print("xi",x[i],"xj",x[j])
+				print(x.remove(x[j]))
+				print(x)"""
+
+
+
+	#index=[]
+	
+	"""for index,number in enumerate(arr):
+		for i in range(0,len(arr)):
+			for j in range(i+1,len(arr)):
+				print(index, number,i,j)
+
+
+	#abc=[]
+	#abc=[arr[i:i+2] for i in range(0,len(arr)-1)]  """
+	"""for i in range(0,len(arr)):
+		for j in range(i+1,len(arr)):
+			if arr[i]==arr[j]:
+				samp=(i,j)
+				index.append(samp)
+	print(index)"""
+			#abc.append(x)
+	#print(abc)
+
+
+
+
+
+	"""maxarray=[]
+	maxvalue=0
+	equalvalue=0
+	maxvaluearray=[]
+	for index,number in enumerate(arr):
+		if maxvalue < number or (maxvalue==number and number != 0):
+		
+			maxvalue=number
+			maxarray.append(index)
+			maxvaluearray.append(number)
+			#print(maxvalue)
+			print(maxarray)
+			print(maxvaluearray)
+	store=maxvaluearray[0]
+	for x in maxvaluearray:
+		store=x
+		if x==store:
+
+			print(x) """
+
+		#print(index,number)				#working
+		#if number>number[index+1]
+		#print(index,arr[index:index+1])	#working
+		#print(index,arr[index])
+	"""count=0
+	for j in arr:			#this whole for loop is working
+		last=len(arr)
+		print(j,arr.index(j,count,last))
+		count+=1"""
+
+
+		#count[i]
+	#print(count)
+#rand=bird2()
+
+
 bird1(d)
 
 
